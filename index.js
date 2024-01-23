@@ -6,4 +6,4 @@ const P = (...txt) => txt.map((t, p) => ((p = document.createElement("p")), (p.i
   add(P("Earn another million dollars.")), add(P("Move to a exotic place."), "beforeend"), inner("Learn cooking better.");
   add(P("Take driver license!", "Travel to majority of all countries on earth.", "Last thing!")), rep("h2", "Daniels"),
   console.log(`${list.nodeName} contains ${list.childElementCount} elements...`), rep(list.nodeName, P("Find happiness."), 0), 
-  rep(list.nodeName, P("Learn painting and cooking."), ~~(list.childElementCount / 2)), list.removeChild(list.lastChild);
+  rep(list.nodeName, P("Learn painting and cooking."), ~~(list.childElementCount / 2)), list.lastChild.remove();
